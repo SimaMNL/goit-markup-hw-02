@@ -4,42 +4,59 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portofolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles-portofolio.css" />
   </head>
   <body>
     <!-- Header -->
     <header>
       <!-- Navigation Bar -->
       <nav>
-        <a href="./index.html">WebStudio</a>
+        <a class="title-studio-name" href="./index.html"
+          ><span class="title-web-name">Web</span>Studio</a
+        >
         <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+          <li><a class="nav-link" href="">Studio</a></li>
+          <li><a class="nav-link" href="">Portfolio</a></li>
+          <li><a class="nav-link" href="">Contacts</a></li>
         </ul>
       </nav>
       <!-- Contact info -->
       <address>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li>
+            <a class="adress-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="adress-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
       <!-- Navigation Button -->
       <dev>
         <a href="All">
-          <button type="button">All</button>
+          <button class="navigation-button" type="button">All</button>
         </a>
         <a href="index.html">
-          <button type="button">Web Site</button>
+          <button class="navigation-button" type="button">Web Site</button>
         </a>
         <a href="App">
-          <button type="button">App</button>
+          <button class="navigation-button" type="button">App</button>
         </a>
         <a href="Design">
-          <button type="button">Design</button>
+          <button class="navigation-button" type="button">Design</button>
         </a>
         <a href="Marketing">
-          <button type="button">Marketing</button>
+          <button class="navigation-button" type="button">Marketing</button>
         </a>
       </dev>
     </header>
@@ -49,80 +66,125 @@
       <section>
         <ul>
           <li>
-            <img src="./images/bankapp.jpg" width="360" alt="BankApp" />
-            <h3>Banking App Interface Concept</h3>
-            <p>App</p>
+            <img
+              class="images-what-we-make"
+              src="./images/bankapp.jpg"
+              width="360"
+              height="300px"
+              flex="shrink"
+              alt="BankApp"
+            />
+            <h3 class="images-title">Banking App Interface Concept</h3>
+            <p class="title-images-profesion">App</p>
           </li>
           <li>
             <img
+              class="images-what-we-make"
               src="./images/pos-qr-code-phone.jpg"
               width="360"
+              height="300px"
+              flex="shrink"
               alt="QR code on phone"
             />
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
+            <h3 class="images-title">Cashless Payment</h3>
+            <p class="title-images-profesion">Marketing</p>
           </li>
 
           <li>
             <img
+              class="images-what-we-make"
               src="./images/lapton-phone.jpg"
               width="360"
+              height="300px"
+              flex="shrink"
               alt="One Laptop sync whit phone"
             />
-            <h3>Meditation App</h3>
-            <p>App</p>
+            <h3 class="images-title">Meditation App</h3>
+            <p class="title-images-profesion">App</p>
           </li>
         </ul>
       </section>
       <!-- Section 2 -->
       <section>
         <div>
-          <img src="./images/Taxi-service.jpg" width="360" alt="Taxi Service" />
           <img
+            class="images-what-we-make"
+            src="./images/Taxi-service.jpg"
+            width="360"
+            height="300px"
+            flex="shrink"
+            alt="Taxi Service"
+          />
+          <img
+            class="images-what-we-make"
             src="./images/screen-illustration.jpg"
             width="360"
+            height="300px"
+            flex="shrink"
             alt="screen illustration"
           />
           <img
+            class="images-what-we-make"
             src="./images/online-courses.jpg"
             width="360"
+            height="300px"
+            flex="shrink"
             alt="online courses"
           />
         </div>
         <div>
-          <h3>Taxi Service</h3>
-          <p>Marketing</p>
-          <h3>Screen Illustration</h3>
-          <p>Design</p>
-          <h3>Online Courses</h3>
-          <p>Marketing</p>
+          <h3 class="images-title">Taxi Service</h3>
+          <p class="title-images-profesion">Marketing</p>
+          <h3 class="images-title">Screen Illustration</h3>
+          <p class="title-images-profesion">Design</p>
+          <h3 class="images-title">Online Courses</h3>
+          <p class="title-images-profesion">Marketing</p>
         </div>
       </section>
       <!-- Section 3 -->
       <section>
         <div>
           <img
+            class="images-what-we-make"
             src="./images/instagram-stories-concept.jpg"
             width="360"
+            height="300px"
+            flex="shrink"
             alt="instagram stories concept"
           />
-          <img src="./images/organic-food.jpg" width="360" alt="organic food" />
-          <img src="./images/fresh-coffee.jpg" width="360" alt="fresh coffee" />
+          <img
+            class="images-what-we-make"
+            src="./images/organic-food.jpg"
+            width="360"
+            height="300px"
+            flex="shrink"
+            alt="organic food"
+          />
+          <img
+            class="images-what-we-make"
+            src="./images/fresh-coffee.jpg"
+            width="360"
+            height="300px"
+            flex="shrink"
+            alt="fresh coffee"
+          />
         </div>
         <div>
-          <h3>Instagram Stories Concept</h3>
-          <p>Design</p>
-          <h3>Organic Food</h3>
-          <p>Web Site</p>
-          <h3>Fresh Coffee</h3>
-          <p>Web Site</p>
+          <h3 class="images-title">Instagram Stories Concept</h3>
+          <p class="title-images-profesion">Design</p>
+          <h3 class="images-title">Organic Food</h3>
+          <p class="title-images-profesion">Web Site</p>
+          <h3 class="images-title">Fresh Coffee</h3>
+          <p class="title-images-profesion">Web Site</p>
         </div>
       </section>
     </main>
     <!-- Footer -->
     <footer>
-      <a href="./index.html">WebStudio</a>
-      <p>
+      <a class="title-studio-name-footer" href="./index.html"
+        ><span class="title-web-name">Web</span>Studio</a
+      >
+      <p class="footer-paragraf">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
