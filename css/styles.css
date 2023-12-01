@@ -35,6 +35,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  width: 44px;
 }
 
 .title-studio-name {
@@ -45,6 +46,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  width: 71px;
 }
 
 .nav-link {
@@ -73,6 +75,7 @@ ul {
   font-weight: 700;
   line-height: 107.143%;
   letter-spacing: 1.12px;
+  width: 496px;
 }
 
 .order-service-button {
@@ -96,6 +99,9 @@ ul {
   background: var(--navy-blue-color);
 }
 
+.section-2 {
+}
+
 .title-proposition-name {
   color: var(--navy-blue-color);
   font-size: 20px;
@@ -105,6 +111,8 @@ ul {
   letter-spacing: 0.4px;
 }
 
+.section-3 {
+}
 .our-team-section {
   background: var(--cloud-color);
 }
