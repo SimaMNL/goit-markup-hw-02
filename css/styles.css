@@ -3,17 +3,19 @@
   --font-family: "Roboto", sans-serif;
   --blue-color: #4d5ae5;
   --navy-blue-color: #2e2f42;
-  --white-color: #fff;
+  --white-color: #ffffffff;
   --slate-color: #434455;
   --corn-flower: #e7e9fc;
   --cloud-color: #f4f4fd;
+  --ocean-color: #404bbf;
 }
 
+/* Global style */
 body {
   font-family: var(--font-family);
   color: #434455;
+  background-color: var(--white-color);
 }
-/* Global style */
 
 a {
   text-decoration: none;
@@ -28,6 +30,7 @@ ul {
   color: var(--blue-color);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
+  font-style: normal;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.54px;
@@ -185,6 +188,93 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+
+.footer-color {
+  background: var(--navy-blue-color);
+}
+
+/* Portfolio page */
+
+.navigation-button {
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  border-radius: 4px;
+  background: var(--ocean-color);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 12px 24px;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.images-what-we-make {
+  background: url(<path-to-image>),
+    lightgray -25.026px 0px / 125% 100% no-repeat;
+}
+
+.images-title {
+  color: var(--navy-blue-color);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.4px;
+}
+
+.title-images-profesion {
+  color: var(--slate-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+.title-studio-name-footer {
+  color: var(--cloud-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.title-web-name-footer {
+  color: var(--blue-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.title-studio-name-footer {
+  color: var(--cloud-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.footer-paragraf {
+  color: var(--cloud-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.32px;
 }
 
 .footer-color {
