@@ -163,6 +163,10 @@ body {
   background-color: #ffffffff;
 }
 
+.title {
+  background-color: #ffffffff;
+}
+
 .our-team-profesion {
   color: var(--slate-color);
   text-align: center;
