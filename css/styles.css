@@ -166,6 +166,7 @@ body {
 }
 
 .our-team-pictures {
+  background-color: #ffffffff;
   background: url(<path-to-image>),
     lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
 }
@@ -222,11 +223,11 @@ body {
 
 .adress-link:hover,
 .adress-link:focus {
-  color: var(--blue-color);
+  color: var(--ocean-color);
 }
 
 .adress-link {
-  color: var(--blue-color);
+  color: var(--slate-color);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
