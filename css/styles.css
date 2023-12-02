@@ -237,7 +237,6 @@ body {
   line-height: 150%;
   letter-spacing: 0.64px;
   cursor: pointer;
-  border-radius: 4px;
   background-color: var(--cloud-color);
   font-family: "Roboto", sans-serif;
 }
