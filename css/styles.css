@@ -41,7 +41,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  width: 71px;
 }
 
 .nav-link:hover,
@@ -91,7 +90,6 @@ body {
   font-weight: 700;
   line-height: 107.143%;
   letter-spacing: 1.12px;
-  width: 496px;
 }
 
 .order-service-button:hover,
@@ -108,13 +106,7 @@ body {
   line-height: 150%;
   letter-spacing: 0.64px;
   cursor: pointer;
-  border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
 }
 
 .main-section {
@@ -167,8 +159,6 @@ body {
 
 .our-team-pictures {
   background-color: #ffffffff;
-  background: url(<path-to-image>),
-    lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
 }
 
 .our-team-names {
@@ -249,12 +239,6 @@ body {
   cursor: pointer;
   border-radius: 4px;
   background-color: var(--cloud-color);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-  display: flex;
-  padding: 12px 24px;
-  align-items: flex-start;
-  gap: 10px;
   font-family: "Roboto", sans-serif;
 }
 
