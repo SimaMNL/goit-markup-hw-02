@@ -113,9 +113,6 @@ body {
   background: var(--navy-blue-color);
 }
 
-.section-2 {
-}
-
 .title-proposition-name {
   color: var(--navy-blue-color);
   font-size: 20px;
@@ -125,8 +122,6 @@ body {
   letter-spacing: 0.4px;
 }
 
-.section-3 {
-}
 .our-team-section {
   background: var(--cloud-color);
 }
